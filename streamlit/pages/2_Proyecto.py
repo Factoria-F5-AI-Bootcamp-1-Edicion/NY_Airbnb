@@ -73,7 +73,7 @@ st.write("""
 """)#se creo para dejar espacio entre graficas
 
 plt.scatter(df["price"],df["neighbourhood_group"])
-plt.title("PENDIENTE PONERLE TITULO")
+plt.title("Precios por Distritos")
 
 st.set_option('deprecation.showPyplotGlobalUse', False) 
 
