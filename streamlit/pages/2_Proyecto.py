@@ -170,9 +170,11 @@ La pandemia de COVID-19 impactó negtivamente al turismo  y la rentabilidad corr
 """)
 
 
-Precios actuales en el trimestre | Precio medio por pie cuadrado | Precio medio de venta
+st.write (""" ### Precios actuales en el trimestre | Precio medio por pie cuadrado | Precio medio de venta
  --- | --- | ---
 **Coops** | **$1,139** | **$1.28M** |
 **Condominios** | **$1,921** | **$2.64M**
 **Nuevo desarrollo**| **$2,581** | **$3.84M**  
 **Lujo (10% superior)**| **$2,636** | **$7.75M**
+
+""")
