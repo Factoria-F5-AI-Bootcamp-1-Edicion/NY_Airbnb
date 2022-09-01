@@ -77,6 +77,7 @@ plt.title("Precios por Distritos")
 
 st.set_option('deprecation.showPyplotGlobalUse', False) 
 
+
 fig = st.pyplot()
 
 
@@ -124,3 +125,54 @@ st.write(""" ### La oferta de alojamiento se distribuye de la siguiente manera:
 ### - Shared room     = 1160 
 
 """)
+
+
+st.markdown("<h1 style='text-align: center; color: darkblue;'>Conclusione</h1>", unsafe_allow_html=True)
+
+
+st.write(""" ### La mayor concentracion de la oferta de alojamiento vacacional, se ubican en Manhttan y Brooklyn, Distritos en los que se concentran  las principales atracciones turisticas, una amplia oferta comercial 24/7, y atención de seguridad. 
+### Dentro de los Distritos de Manhattan y Brooklyn, se ubican los 14 vencindarios con mayor oferta de alojamiento
+
+### - Williamsburg = 3920
+### - Bedford-Stuyvesant = 3714
+### - Harlem = 2658
+### - Bushwick = 2465
+### - Upper West Side = 1971
+### - Hell's Kitchen = 1958
+### - East Village = 1853
+### - Upper East Side = 1798
+### - Crown Heights = 1564
+### - Midtown = 1545
+### - East Harlem = 1117
+### - Greenpoint = 1115
+### - Chelsea = 1113
+### - Lower East Side = 911
+### - Astoria = 900
+
+""")
+
+st.write(""" ### Los principales propietarios tienen mas de 100 alojamientos para alquilar, siendo el principal El Host ID 219517861.
+
+""")
+
+
+st.write(""" ### La principal oferta de alojamiento son casas o apartamentos completos = 25,409 total seguidos por habitaciones privadas 22,326 y ultima instancia cuartos compartidos 1,160
+
+""")
+
+st.write(""" Los mayores costos de alquiler, se ubican en el distrito de Manhattan, seguidos por Brooklyn y el mas economico en el Bronx. 
+El precio está relacionado con la ubicación del alojamiento y los servicios y atracciones disponibles.
+  El Bronx es uno de los Distritos más deprimidos de la Ciudad de New York. Históricamente, la zona ha sido asociada a la pobreza,  violencia, drogas y crimen. aunque algunas áreas han visto un mejoramiento urbanístico debido a los procesos de rezonificación.
+La pandemia de COVID-19 impactó negtivamente al turismo  y la rentabilidad correspondiente. Sin embargo, desde el año 2021 se ha observado una mejoría en el sector.  
+
+
+
+""")
+
+
+Precios actuales en el trimestre | Precio medio por pie cuadrado | Precio medio de venta
+ --- | --- | ---
+**Coops** | **$1,139** | **$1.28M** |
+**Condominios** | **$1,921** | **$2.64M**
+**Nuevo desarrollo**| **$2,581** | **$3.84M**  
+**Lujo (10% superior)**| **$2,636** | **$7.75M**
